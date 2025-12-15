@@ -13,5 +13,15 @@
 5. Создать репозиторий с проектом
 
 Ход работы:
-1. В начале был создан класс Grant в пакете model. 
+1. В начале был создан класс Grant с конструкторвами и get'терами в пакете model.
 <img width="1679" height="875" alt="Снимок экрана 2025-12-15 202922" src="https://github.com/user-attachments/assets/fdd99ea8-d99e-43ae-b471-836654c28740" />
+
+2. Дальше после получения csv-файла, была добавлена зависимость и был создан класс Tools с единственным методом, который переносит данные из файла в ArrayList объектов Grant.
+<img width="1380" height="917" alt="Снимок экрана 2025-12-15 203237" src="https://github.com/user-attachments/assets/08bd86cc-5c70-4e4f-8da4-517b6c505204" />
+
+3. Теперь нужно создать базу данных с помощью sqlite-jdbc. Добавляем зависимость и создаём класс DataBase с 3-мя методами.
+<img width="1396" height="935" alt="Снимок экрана 2025-12-15 203833" src="https://github.com/user-attachments/assets/69947537-9227-452d-af06-33d2dbb16ad9" />
+<img width="1727" height="723" alt="Снимок экрана 2025-12-15 203847" src="https://github.com/user-attachments/assets/dc50217f-b082-473c-b38c-080943b4fbf1" />
+База данных была создана и в неё записаны данные.
+<img width="1639" height="531" alt="Снимок экрана 2025-12-15 204225" src="https://github.com/user-attachments/assets/bba7ae05-0482-43b6-ad25-4651a035ef17" />
+<img width="1350" height="974" alt="Снимок экрана 2025-12-15 204305" src="https://github.com/user-attachments/assets/ce3dfea0-2268-4309-8b77-4425a1184520" />
