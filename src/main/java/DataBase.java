@@ -51,14 +51,15 @@ public class DataBase {
                     companyName, streetName, grant.getQuantity(),
                     Integer.parseInt(grant.getFiscalYear().toString()),
                     businessTypeName, grant.getWorkPlaces());
-            System.out.println(query);
+
             try {
                 statmt.execute(query);
-                System.out.println("Table is filled");
+
             } catch (SQLException e) {
                 throw new RuntimeException(e);
             }
         }
+        System.out.println("Table is filled");
     }
 
     public static void GraphAveragePlaces() {

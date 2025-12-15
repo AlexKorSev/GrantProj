@@ -8,8 +8,8 @@ public class Main {
         ArrayList<Grant> grants = new ArrayList<>();
         grants = Tools.getGrantsFromCsv("E:\\Engine\\JavaP\\GrantProj\\src\\main\\resources\\data.csv");
         DataBase.connection();
-//        DataBase.createDB();
-//        DataBase.writeDB(grants);
+        DataBase.createDB();
+        DataBase.writeDB(grants);
 
         System.out.println("1 Задача: ");
         System.out.println("Постройте график по среднему количеству рабочих мест для каждого фискального года");
