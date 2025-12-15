@@ -27,7 +27,6 @@ public class Charts {
         for (int year : data.keySet()) {
             series.add(new Year(year), data.get(year));
         }
-
         TimeSeriesCollection dataset = new TimeSeriesCollection();
         dataset.addSeries(series);
         return dataset;
@@ -39,13 +38,11 @@ public class Charts {
                 "Год", "Среднее количество рабочих мест",
                 dataSet,  true, false, false);
 
-        // Настройка внешнего вида
         XYPlot plot = chart.getXYPlot();
         plot.setBackgroundPaint(Color.WHITE);
         plot.setDomainGridlinePaint(Color.GRAY);
         plot.setRangeGridlinePaint(Color.GRAY);
 
-        // Настройка линии графика
         XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();
         renderer.setSeriesPaint(0, Color.BLUE);
         renderer.setSeriesStroke(0, new BasicStroke(2.0f));
