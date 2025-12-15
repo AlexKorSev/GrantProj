@@ -14,15 +14,15 @@
 
 Ход работы:
 1. В начале был создан класс Grant с конструкторвами и get'терами в пакете model.
-2. 
+
 <img width="1679" height="875" alt="Снимок экрана 2025-12-15 202922" src="https://github.com/user-attachments/assets/fdd99ea8-d99e-43ae-b471-836654c28740" />
 
 3. Дальше после получения csv-файла, была добавлена зависимость и был создан класс Tools с единственным методом, который переносит данные из файла в ArrayList объектов Grant.
-4. 
+
 <img width="1380" height="917" alt="Снимок экрана 2025-12-15 203237" src="https://github.com/user-attachments/assets/08bd86cc-5c70-4e4f-8da4-517b6c505204" />
 
 5. Теперь нужно создать базу данных с помощью sqlite-jdbc. Добавляем зависимость и создаём класс DataBase с 3-мя методами.
-6. 
+
 <img width="1396" height="935" alt="Снимок экрана 2025-12-15 203833" src="https://github.com/user-attachments/assets/69947537-9227-452d-af06-33d2dbb16ad9" />
 
 <img width="1727" height="723" alt="Снимок экрана 2025-12-15 203847" src="https://github.com/user-attachments/assets/dc50217f-b082-473c-b38c-080943b4fbf1" />
@@ -45,6 +45,15 @@
 
 <img width="1658" height="669" alt="Снимок экрана 2025-12-15 204706" src="https://github.com/user-attachments/assets/8779abce-0f18-4383-9cb3-34b758b881e9" />
 
-4.2 
+4.2-4.3 Во второй и третьей задачах результаты представляют просто по одной ячейке. Методы на скриншотах
 
+<img width="1475" height="909" alt="Снимок экрана 2025-12-15 205437" src="https://github.com/user-attachments/assets/eb0ccb85-ee0a-4b61-a3cd-3e1e9642221b" />
 
+5. Задания были завершены и проект загружен. Результаты работы программы:
+Консоль:
+
+<img width="1679" height="911" alt="Снимок экрана 2025-12-15 204157" src="https://github.com/user-attachments/assets/79738086-3cdc-4ea8-aaf1-b723e3bea2c0" />
+
+График:
+
+<img width="802" height="630" alt="Снимок экрана 2025-12-15 192318" src="https://github.com/user-attachments/assets/f3289189-df62-4072-a9f9-18d4236d463a" />
